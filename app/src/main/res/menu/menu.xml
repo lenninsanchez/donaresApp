@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/registrarse_donante"
+        android:title="Registrarse"
+        android:visible="true"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/buscar_donador"
+        android:title="Buscar donador"
+        android:visible="true"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Comentarios"
+        android:visible="true"
+        app:showAsAction="never"
+        ></item>
+    <item android:id="@+id/donaciones"
+        android:title="Donar"
+        android:visible="true"
+        app:showAsAction="never"
+        ></item>
+</menu>
