@@ -54,6 +54,7 @@ public class RegistroActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.txtFechaNacimiento:
+                    String a="";
                     openDateModal();
                 break;
         }
